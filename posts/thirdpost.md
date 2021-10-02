@@ -1,13 +1,12 @@
 ---
-title: This is the third example post which has a slightly longer title than the
-  others
-date: 2020-01-02T05:00:00.000Z
+title: Event Four
+date: 2021-10-02T03:15:44.508Z
 author: Jane Doe
-image: https://source.unsplash.com/random/600x400
+image: https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2952&q=80
 summary: Why contemplating our mortality can be a powerful catalyst for change
 tags:
-  - tech
-  - politics
+  - porkchops
+  - delicious
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
