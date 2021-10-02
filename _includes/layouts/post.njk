@@ -7,9 +7,13 @@ section: post
   <h1>{{ title }}</h1>
   <p>
     <small>
-      <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time> by <a href="/authors/{{ author | slug }}/">{{ author }}</a>
+      <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time></a>
     </small>
   </p>
+
+  {% if image %}
+    <img src="{{ image }}"></image>
+  {% endif %}
 
   {{ layoutContent | safe }}
 
