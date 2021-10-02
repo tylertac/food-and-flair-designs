@@ -5,7 +5,7 @@ metaDescription: This is a sample meta description. If one is not present in
   instead.
 date: 2019-01-01T00:00:00.000Z
 author: John Appleseed
-image: https://unsplash.com/photos/eeqbbemH9-c
+image: https://source.unsplash.com/random/600x400
 summary: Why contemplating our mortality can be a powerful catalyst for change
 tags:
   - event
