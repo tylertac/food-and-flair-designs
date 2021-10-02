@@ -1,7 +1,8 @@
 ---
 title: This is the second example post
-summary: Why contemplating our mortality can be a powerful catalyst for change
 date: 2020-01-01
+image: https://source.unsplash.com/random/600x400
+summary: Why contemplating our mortality can be a powerful catalyst for change
 author: John Appleseed
 tags:
   - sport
