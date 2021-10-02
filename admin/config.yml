@@ -40,18 +40,11 @@ collections:
           - { label: "Order", name: "order", widget: "number", default: 0 }
       - { label: "Body", name: "body", widget: "markdown" }
   # Sitewide Settings
-  # - name: "settings"
-  #   label: "Settings"
-  #   folder: "settings"
-  #   create: false # Change to true to allow editors to create new pages
-  #   slug: "{{slug}}"
-  #   fields:
-  #     - { label: "Logo", name: "logo", widget: "image", choose_url: true }
   - name: settings
     label: Settings
     files:
       - name: general
         label: General
-        file: "src/util/site.json"
+        file: ""
         fields:
-          - { label: "Logo", name: "logo", widget: "image", choose_url: true }
+          - { label: "Logo", name: "logo", widget: "image", choose_url: true }
