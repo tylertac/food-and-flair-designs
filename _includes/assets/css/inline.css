@@ -1,5 +1,5 @@
 :root {
-	--primary: blue;
+	--primary: #0c0c0c;
 	--secondary: white;
 	--background: #FFF0EB;
 }
@@ -19,10 +19,12 @@ body {
 	display: grid;
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
+	justify-content: center;
 	background-color: var(--background);
 }
 
 main {
+	margin-top: 4em;
 	max-width: 37.5em;
 }
 
