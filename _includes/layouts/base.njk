@@ -6,12 +6,17 @@
 	<body>
 		<header>
 
-		    <a href="{{ '/' | url }}"><img class="logo" src="/static/img/logo.png"></image></a>
+				<div class="logo-tainer">
+					<a href="{{ '/' | url }}"><img class="logo" src="/static/img/logo.png"></image></a>
+				</div>
 
-			<em>
-				<h1><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-			</em>
-			{% include "components/nav.njk" %}
+				<em>
+					<h1 class="logo-text"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+				</em>
+
+
+
+				{% include "components/nav.njk" %}
 
 		</header>
 

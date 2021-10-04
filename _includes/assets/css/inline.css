@@ -54,9 +54,24 @@ footer {
 	padding: 1em;
 }
 
+.logo-tainer {
+	height: 190px;
+}
+
 .logo {
 	max-width: 25%;
+  height: auto;
 }
+
+@media screen and (max-width: 600px) {
+	.logo {
+		max-width: 45%;
+	}
+	.logo-text {
+		font-size: 1.2em;
+	}
+}
+
 
 main {
 	padding-bottom: 2em;
