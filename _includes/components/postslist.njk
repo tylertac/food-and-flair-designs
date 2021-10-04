@@ -2,7 +2,9 @@
 	{% for post in postslist | reverse %}
 		<article{% if post.url == url %} data-current="current item"{% endif %}>
 			{% if post.data.image %}
-		    <img class="post-list-image" src="{{ post.data.image }}"></image>
+				<a href="{{ post.url | url }}">
+		    	<img class="post-list-image" src="{{ post.data.image }}"></img>
+				</a>
 		  {% endif %}
 			<h3>
 				<a href="{{ post.url | url }}">
