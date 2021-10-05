@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/post.njk",
+  "permalink": "calendar/{{ title | slug }}/index.html",
+}
