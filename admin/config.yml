@@ -40,15 +40,15 @@ collections:
           - { label: "Order", name: "order", widget: "number", default: 0 }
       - { label: "Body", name: "body", widget: "markdown" }
   # Calendar Page
-  - name: "calendar"
-    label: "Calendar"
-    folder: "calendar"
-    slug: "{{slug}}"
-    create: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Event Date", name: "event_date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+  # - name: "calendar"
+  #   label: "Calendar"
+  #   folder: "calendar"
+  #   slug: "{{slug}}"
+  #   create: true
+  #   fields:
+  #     - { label: "Title", name: "title", widget: "string" }
+  #     - { label: "Event Date", name: "event_date", widget: "datetime" }
+  #     - { label: "Body", name: "body", widget: "markdown" }
   # Sitewide Settings
   - name: settings
     label: Settings
