@@ -58,9 +58,3 @@ collections:
         name: "globalSettings"
         fields:
           - {label: "Logo", name: "logo", widget: "image"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Google Tag Manager ID", name: "gtm_id", widget: "text"}
-          - {label: "Phone", name: "phone", widget: "text"}
-          - {label: "Email", name: "mailto", widget: "text"}
-          - {label: "Plhtcxt", name: "plhtcxt", widget: "text"}
-          - {label: "Country", name: "country", widget: "text"}
