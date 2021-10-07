@@ -2,6 +2,7 @@
 	--primary: #0c0c0c;
 	--secondary: white;
 	--background: #FFF0EB;
+	--background: {{ metadata.background }};
 }
 
 *, *:before, *:after {

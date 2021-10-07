@@ -58,3 +58,4 @@ collections:
         name: "globalSettings"
         fields:
           - {label: "Logo", name: "logo", widget: "image"}
+          - {label: "Background Color, name: "background", widget: "string"}
