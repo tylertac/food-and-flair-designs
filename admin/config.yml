@@ -53,7 +53,7 @@ collections:
   - name: "settings"
     label: "Settings"
     files:
-      - file: "data/site-settings.yml"
+      - file: "_data/metadata.json"
         label: "Global Settings"
         name: "globalSettings"
         fields:
