@@ -50,11 +50,17 @@ collections:
   #     - { label: "Event Date", name: "event_date", widget: "datetime" }
   #     - { label: "Body", name: "body", widget: "markdown" }
   # Sitewide Settings
-  - name: settings
-    label: Settings
+  - name: "settings"
+    label: "Settings"
     files:
-      - name: general
-        label: General
-        file: ""
+      - file: "data/site-settings.yml"
+        label: "Global Settings"
+        name: "globalSettings"
         fields:
-          - { label: "Logo", name: "logo", widget: "image", choose_url: true }
+          - {label: "Logo", name: "logo", widget: "image"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Google Tag Manager ID", name: "gtm_id", widget: "text"}
+          - {label: "Phone", name: "phone", widget: "text"}
+          - {label: "Email", name: "mailto", widget: "text"}
+          - {label: "Plhtcxt", name: "plhtcxt", widget: "text"}
+          - {label: "Country", name: "country", widget: "text"}
