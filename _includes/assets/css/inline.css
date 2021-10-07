@@ -1,5 +1,5 @@
 :root {
-	--primary: #0c0c0c;
+	--primary: {{metadata.links}};
 	--secondary: white;
 	--background: #FFF0EB;
 	--background: {{ metadata.background }};
