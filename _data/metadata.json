@@ -1,6 +1,6 @@
 {
   "title": "Food and Flair Designs",
-  "logo": "",
+  "logo": "{{ logo }}",
   "description": "",
   "url": ""
 }

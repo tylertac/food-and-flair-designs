@@ -50,9 +50,11 @@ collections:
   #     - { label: "Event Date", name: "event_date", widget: "datetime" }
   #     - { label: "Body", name: "body", widget: "markdown" }
   # Sitewide Settings
-  - name: "settings"
-    label: "Settings"
-    folder: "settings"
-    create: true # Change to true to allow editors to create new pages
-    fields:
-      - { label: "Logo", name: "logo", widget: "image", choose_url: true }
+  - name: settings
+    label: Settings
+    files:
+      - name: general
+        label: General
+        file: ""
+        fields:
+          - { label: "Logo", name: "logo", widget: "image", choose_url: true }
