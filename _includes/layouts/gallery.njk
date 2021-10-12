@@ -1,8 +1,8 @@
 ---
 layout: layouts/base.njk
-section: home
+section: gallery
 ---
 
 {{ layoutContent | safe }}
 {% set postslist = collections.gallery %}
-{% include "components/postslist.njk" %}
+{% include "components/gallerylist.njk" %}

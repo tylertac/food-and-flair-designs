@@ -44,8 +44,8 @@ collections:
   - name: "gallery"
     label: "Gallery Image"
     folder: "gallery"
-    slug: "{{slug}}"
     create: true
+    slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Featured Image", name: "image", widget: "image", choose_url: true }
