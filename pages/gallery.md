@@ -8,3 +8,5 @@ eleventyNavigation:
   order: 2
 ---
 ![](https://source.unsplash.com/random "Image 1")
+
+![](/static/img/charcuterie-board.foodandflair.1.jpg "Image 2")
