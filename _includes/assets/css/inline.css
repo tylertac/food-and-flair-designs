@@ -31,7 +31,9 @@ main {
 }
 
 .two_column {
-	
+}
+
+.two_column > p {
 }
 
 p,
