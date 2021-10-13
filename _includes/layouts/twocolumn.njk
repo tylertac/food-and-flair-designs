@@ -1,0 +1,30 @@
+<!doctype html>
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+
+	{% include "components/head.njk" %}
+
+	<body>
+		<header>
+
+				<div class="logo-tainer">
+					<!-- <a href="{{ '/' | url }}"><img class="logo" src="/static/img/logo.png"></image></a> -->
+					<a href="{{ '/' | url }}"><img class="logo" src="{{ metadata.logo }}"></image></a>
+				</div>
+
+					<h1 class="site-title"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+
+
+
+				{% include "components/nav.njk" %}
+
+		</header>
+
+		<main class="two_column">
+			{{ layoutContent | safe }}
+		</main>
+
+		{% include "components/footer.njk" %}
+
+	</body>
+
+</html>
