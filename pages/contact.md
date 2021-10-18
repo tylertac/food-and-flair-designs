@@ -6,4 +6,4 @@ eleventyNavigation:
   order: 3
   key: Contact
 ---
-Contact me here: trish@foodandflairdesigns.com
+Contact me here: [trish@foodandflairdesigns.com](mailto:trish@foodandflairdesigns.com)
