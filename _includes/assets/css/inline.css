@@ -33,20 +33,12 @@ main {
   width: 960px;
 }
 
-
-.two_column > p {
-	display: block;
-	float: left;
-	text-align: center;
-	width: 47.95918367%;
-	padding-right: 2.040816327%;
-	line-height: 1.25em;
-}
-
-.two_column > p > img {
-	width:  500px;
-  height: 400px;
-  object-fit: cover;
+@media screen and (max-width: 800px) {
+	main {
+		/* margin-left: auto;
+	  margin-right: auto; */
+	  width: 100%;
+	}
 }
 
 p,
@@ -206,6 +198,19 @@ article > h2 {
 	width:  500px;
   height: 400px;
   object-fit: cover;
+}
+
+@media screen and (max-width: 500px) {
+	.home-posts > article {
+		width: 100%;
+		padding-right: 0%;
+		line-height: 1.25em;
+	}
+	.home-posts > article > a > img {
+		width:  100%;
+	  height: auto;
+	  object-fit: cover;
+	}
 }
 
 /* Post Tags */
