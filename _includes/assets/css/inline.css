@@ -25,22 +25,6 @@ body {
 	background-color: var(--background);
 }
 
-main {
-	/* margin-top: 2em; */
-	/* max-width: 37.5em; */
-	margin-left: auto;
-  margin-right: auto;
-  width: 960px;
-}
-
-@media screen and (max-width: 800px) {
-	main {
-		/* margin-left: auto;
-	  margin-right: auto; */
-	  width: 100%;
-	}
-}
-
 p,
 pre,
 code {
@@ -67,38 +51,18 @@ footer {
 	padding: 1em;
 }
 
-.logo-tainer {
-	height: 240px;
-}
-
-.logo {
-	max-width: 25%;
-  height: auto;
-}
-
-.site-title {
-	margin-top: 0px;
-	font-size: 4em;
-}
-
-@media screen and (max-width: 600px) {
-	.logo {
-		max-width: 50%;
-	}
-	.logo-tainer {
-		height: 180px;
-	}
-	.site-title {
-		font-size: 3em;
-		margin-top: 0px;
-		padding-top: 0px;
-	}
-}
-
 
 main {
+  width: 960px;
 	padding-bottom: 2em;
 }
+
+@media screen and (max-width: 975px) {
+	main {
+	  width: 100%;
+	}
+}
+
 
 main :first-child,
 main > article :first-child {
@@ -120,6 +84,34 @@ pre {
 	hyphens: none;
 	padding: 1em;
 	margin: .5em 0;
+}
+
+.logo-tainer {
+	height: 240px;
+}
+
+.logo {
+	max-width: 25%;
+  height: auto;
+}
+
+.site-title {
+	margin-top: 0px;
+	font-size: 4em;
+}
+
+@media screen and (max-width: 600px) {
+	.logo {
+		max-width: 50%;
+	}
+	.logo-tainer {
+		height: auto;
+	}
+	.site-title {
+		font-size: 3em;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
 }
 
 /* Header Logo (style as h2) */
