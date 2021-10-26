@@ -1,5 +1,5 @@
 ---
-title: Charcuterie Displays
+title: Charcuterie Displays Change
 date: 2021-10-02T03:15:44.508Z
 author: Jane Doe
 image: /static/img/charcuterie-board.foodandflair.1.jpg
