@@ -14,3 +14,11 @@ tags:
   - fooddisplays
 ---
 I need to fill in copy here!  LOL  Tesing the waters right now.
+
+![](/static/img/img_7191.jpg "Image")
+
+Caprese Skewers
+
+
+
+![](/static/img/charcuterie-board.foodandflair.1.jpg)
