@@ -7,3 +7,4 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
+Home page info.
