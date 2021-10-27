@@ -1,0 +1,31 @@
+---
+layout: layouts/base.njk
+section: post
+---
+
+<article>
+  <h2>{{ title }}</h2>
+  
+
+  {% if image %}
+    <img src="{{ image }}"></image>
+  {% endif %}
+
+  {{ layoutContent | safe }}
+
+  {% if tags %}
+    <p>
+    {% for tag in tags %}
+      {%- if tag != "post" -%}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+      {%- endif -%}
+    {% endfor %}
+    </p>
+  {% endif %}
+
+</article>
+
+<nav>
+  <a href="{{ '/' | url }}">← Back Home</a>
+</nav>

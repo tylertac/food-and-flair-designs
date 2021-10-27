@@ -1,0 +1,25 @@
+<section class="home-posts">
+	{% for post in categorylist | reverse %}
+		<article{% if category.url == url %} data-current="current item"{% endif %}>
+			{% if category.data.image %}
+				<a href="{{ category.url | url }}">
+		    	<img class="post-list-image" src="{{ category.data.image }}"></img>
+				</a>
+		  {% endif %}
+			<h3>
+				<a href="{{ category.url | url }}">
+					{% if category.data.title %}
+						{{ category.data.title }}
+					{% else %}
+						Untitled
+					{% endif %}
+				</a>
+			</h3>
+			{% if category.data.summary %}
+				<p>
+					{{ category.data.summary }}
+				</p>
+			{% endif %}
+		</article>
+	{% endfor %}
+</section>
