@@ -67,6 +67,7 @@ main {
 main :first-child,
 main > article :first-child {
 	margin-top: 0;
+	position: relative;
 }
 
 pre {
@@ -169,12 +170,13 @@ article > h2 {
 }
 
 .home-posts > article {
-	display: block;
-	float: left;
+	display: inline-block;
+	/* float: left; */
 	text-align: left;
 	width: 47.95918367%;
 	padding-right: 2.040816327%;
 	line-height: 1.25em;
+	top: 4px;
 }
 
 .home-posts > article > h3 {
