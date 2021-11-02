@@ -17,10 +17,14 @@ collections:
     # preview_path: "posts/{{slug}}"
     fields: # The fields for each document, usually in front matter
       - { label: "Category Title", name: "title", widget: "string" }
-      # - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image Shown On Homepage", name: "image", widget: "image", choose_url: true }
-      - { label: "Summary", name: "summary", widget: "text", required: false }
-      # - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+      - { label: "Summary For Homepage", name: "summary", widget: "text", required: false }
+      - label: "Gallery Image"
+        name: "galleryImage"
+        widget: "list"
+        fields:
+          - { label: "Gallery Image", name: "listImage", widget: "image", choose_url: true, required: false  }
+          - { label: "Gallery Image Caption", name: "galleryImageCaption", widget: "text", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
   # Our pages e.g. About
   - name: "pages"
@@ -37,7 +41,7 @@ collections:
         name: "eleventyNavigation"
         widget: "object"
         fields:
-          - { label: "Key", name: "key", widget: "string" }
+          - { label: "Navigation Name", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
       - { label: "Body", name: "body", widget: "markdown", required: false }
   # Sitewide Settings

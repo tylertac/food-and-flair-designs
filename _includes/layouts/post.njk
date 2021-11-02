@@ -10,6 +10,15 @@ section: post
     <img src="{{ image }}"></image>
   {% endif %}
 
+  {% if galleryImage %}
+    {% set galleryImage %}
+      <figure>
+        <img src="{{ listImage }}"></image>
+        <figcaption>{{ galleryImageCaption }}</figcaption>
+      </figure>
+    {% endset %}
+  {% endif %}
+
   {{ layoutContent | safe }}
 
 </article>
