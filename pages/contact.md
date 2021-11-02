@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Contact Me
 date: 2021-10-18T03:00:59.322Z
 permalink: /contact/index.html
 eleventyNavigation:
