@@ -5,6 +5,8 @@ galleryImage:
     galleryImageCaption: Trish's Holiday Salsa
   - listImage: /static/img/trish-s-salsa.jpg
     galleryImageCaption: More Trish's Salsa
+  - listImage: /static/img/img_7191.jpg
+    galleryImageCaption: Charcuterie Board
 author: John Appleseed
 date: 2019-01-01T00:00:00.000Z
 metaDescription: This is a sample meta description. If one is not present in
