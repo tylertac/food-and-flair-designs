@@ -4,5 +4,5 @@ section: home
 ---
 
 {{ layoutContent | safe }}
-{% set categorylist = collections.categories %}
-{% include "components/categorylist.njk" %}
+{% set categorylist = collections.posts %}
+{% include "components/postslist.njk" %}
